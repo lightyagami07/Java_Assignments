@@ -17,11 +17,11 @@ public class Printer {
         System.out.println("Enter the number of fibonacci position");
         Scanner sc = new Scanner(System.in);
         int position = sc.nextInt();
-        Fibs print=new Fibs();
+        Fibs printer=new Fibs();
         System.out.println("Fibonacci Series :");
         int i;
         for (i = 0; i <position; i++) {
-            System.out.print(print.fibonacciNum(i) + " ");
+            System.out.print(printer.fibonacciNum(i) + " ");
         }
     }
 }
